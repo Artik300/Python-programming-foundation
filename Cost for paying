@@ -1,0 +1,8 @@
+A = int(input())
+B = int(input())
+N = int(input())
+CostCoins = A * 100 + B
+Price = CostCoins * N
+ruble = Price // 100
+Coins = Price % 100
+print(ruble, Coins)

@@ -1,0 +1,5 @@
+N = int(input())
+Hour1 = N // 60
+Hour = Hour1 % 24
+Minute = N % 60
+print(Hour, Minute)

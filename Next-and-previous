@@ -1,0 +1,5 @@
+N = int(input())
+N1 = N + 1
+N2 = N - 1
+print('The next number for the number ', N, ' is ', N1, '.', sep='')
+print('The previous number for the number ', N, ' is ', N2, '.', sep='')

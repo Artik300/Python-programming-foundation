@@ -1,0 +1,4 @@
+N = input()
+str_a = N*100
+c = int(str_a)**2
+print(c)

@@ -1,0 +1,9 @@
+N = int(input())
+H = N // 3600 % 24
+M = N % 3600 // 60
+Sec = N % 3600 % 60
+m1 = M // 10
+m2 = M % 10
+sec1 = Sec // 10
+sec2 = Sec % 10
+print(H, ":", m1, m2, ":", sec1, sec2, sep="")
